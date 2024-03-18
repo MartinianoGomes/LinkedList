@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class LinkedList2<Item> implements Iterable<Item> { 
+public class LinkedList2<Item> implements Iterable<Item> {
     private Node first;
     private int n;
     
@@ -18,10 +18,11 @@ public class LinkedList2<Item> implements Iterable<Item> {
         @Override
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException() {
-            Item item = current.item();
-            current = current.next;
+                Item item = current.item();
+                current = current.next;
 
-            return item;
+                return item;
+            }
         }
     }
     
