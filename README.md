@@ -7,7 +7,7 @@
 
 ![alt text](src/images/image.png)
 
-# Como usar
+# Uso
 
 <p>As operações básicas em uma lista lincada são:</p>
 
